@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="./Css/index.css" />
   </head>
   <body>
+    <!--Navbar-->
     <section>
       <nav class="navbar navbar-expand-lg bg-light fw-bold sticky-top">
         <div class="container-fluid mx-5">
-          <a class="navbar-brand fw-bold fs-3 logo" href="#">Chegg</a>
+          <a class="navbar-brand fw-bold fs-3 text-primary" href="#">Chegg</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -28,10 +29,10 @@
             class="collapse navbar-collapse justify-content-center"
             id="navbarSupportedContent"
           >
-            <ul class="navbar-nav mb-2 mb-lg-0">
+            <ul class="navbar-nav mb-2 mb-lg-0 fw-bold">
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle text-dark"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -51,7 +52,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle text-dark"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -70,7 +71,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle text-dark"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -88,7 +89,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle text-dark"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -112,39 +113,83 @@
           >
             <ul class="navbar-nav mb-2 mb-lg-0 fw-bold">
               <li class="nav-item ml">
-                <a class="nav-link" aria-current="page" href="#"
+                <a class="nav-link text-dark" aria-current="page" href="#"
                   >For educators</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-sep" href="#">Help</a>
+                <a class="nav-link nav-sep row-cols-lg-6 text-dark" href="#"
+                  >Help</a
+                >
               </li>
 
               <li class="nav-item">
-                <a class="nav-link">Sign in</a>
+                <a class="nav-link text-dark">Sign in</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </section>
+    <!--Search Section-->
     <section>
       <div class="search">
         <div class="row">
-          <div class="container-fluid mt-5 w-50">
-            <form class="d-flex justify-content-center" role="search">
+          <div class="container-fluid mt-3 w-50 border-primary">
+            <form
+              class="d-flex justify-content-center border-primary"
+              role="search"
+            >
               <input
-                class="form-control me-1 border-primary"
+                class="form-control me-1 input"
                 type="search"
                 placeholder=" Find Books, solutions , and more..."
                 aria-label="Search"
               />
-              <button class="btn fw-bold" type="submit">Search</button>
+              <button class="btn fw-bold p-1" type="submit">Search</button>
             </form>
           </div>
         </div>
       </div>
     </section>
+    <!--hero Section-->
+    <section>
+      <div class="hero">
+        <div class="content text-light">
+          <h4 class="fs-5 fw-normal">FROM FIRST DAY TO FINALS</h4>
+          <h1 class="fw-bold">Success in every step</h1>
+          <p class="fs-4">
+            Stay on top of it with homework help, exam prep & writing
+            support—tailored to your courses.
+          </p>
+          <button
+            class="btn btn-primary text-white fw-bold px-2 m-0 rounded-5 fs-5 btnclass"
+          >
+            Get started
+          </button>
+          <br />
+          <div class="learn mt-3">
+            <a href="" class="text-light learn-more"
+              >Learn more
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-arrow-right text-light"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--hero section second-->
     <section></section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"

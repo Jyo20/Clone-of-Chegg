@@ -1,12 +1,17 @@
+
 $theme-colors: (
   "primary":    rgb(235, 113, 0),
   "success":    green,
-  "info":       rgb(224, 46, 1),
+  "info":       rgb(255, 155, 6),
   "warning":    yellow,
   "danger":     red,
   "light":      white,
   "dark":       black
 );
 
-$input-focus-border-color:rgb(224, 46, 1);
-@import"../node_modules/bootstrap/scss/bootstrap.scss"
+$input-focus-border-color:rgb(241, 62, 18);
+$input-focus-border:2px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+$font-family-sans-serif:'poppins',sans-serif;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
