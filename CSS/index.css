@@ -164,6 +164,9 @@ body {
   padding: 80px;
   padding-top: 180px;
 }
+.para-section {
+  font-size: 12px;
+}
 /*Small Screen*/
 @media (max-width: 586px) {
   .hero-mobile {
