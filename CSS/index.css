@@ -164,8 +164,32 @@ body {
   padding: 80px;
   padding-top: 180px;
 }
+/*Para section Css*/
 .para-section {
   font-size: 12px;
+}
+/**Footer Section*/
+.footer a {
+  color: rgb(48, 44, 65);
+  text-decoration: none;
+  /* font-size: 12px; */
+  font-family: "Aspira Webfont", Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 0.25px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.social {
+  background-color: rgb(233, 233, 233);
+}
+.social-icon div {
+  margin-left: 30px;
+}
+.social-icon-img {
+  width: 300px;
 }
 /*Small Screen*/
 @media (max-width: 586px) {
