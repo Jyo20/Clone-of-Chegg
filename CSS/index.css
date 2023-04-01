@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .nav-link {
   margin-left: 20px;
 }
@@ -11,7 +15,7 @@
   margin-top: 10px;
 }
 
-.btn {
+.btn-one {
   background-color: rgb(235, 113, 0);
   color: white;
   width: 90px;
@@ -20,12 +24,28 @@
   font-size: 20px;
 }
 
-.btn:hover {
+.btn-one:hover {
   background-color: rgb(252, 79, 10);
   color: white;
 }
-.input {
-  border: 3px solid rgb(255, 158, 12);
+/*Search section*/
+.search {
+  padding: 12px;
+  width: 520px;
+  border: 1px solid rgb(242, 199, 27);
+  border-radius: 6px;
+}
+.search:focus {
+  outline: none;
+  border: 2px solid rgb(240, 133, 10);
+}
+.search-btn {
+  margin-left: -95px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*hero section css*/
 .hero {
@@ -109,4 +129,69 @@
 }
 .head {
   line-height: 40px;
+}
+/*Sign in section */
+.row > div > h1 {
+  width: 80rem;
+  text-align: justify;
+}
+/*cotainer box Css*/
+.container > div > div > img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  min-height: 100%;
+}
+.container > div > div > div > h4 {
+  font-weight: 900;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+/* class room section =>  Side hero section css*/
+.side-hero-1 {
+  background-image: url("../img/panel-careers.webp");
+  background-size: cover;
+  height: 560px;
+  border-radius: 10px;
+}
+.side-hero-2 {
+  background-image: url("../img/panel-life.webp");
+  background-size: cover;
+  height: 560px;
+  border-radius: 10px;
+}
+.side-hero-content {
+  padding: 80px;
+  padding-top: 180px;
+}
+/*Small Screen*/
+@media (max-width: 586px) {
+  .hero-mobile {
+    display: block;
+  }
+  .hero {
+    display: none;
+  }
+  .nav-sep {
+    border: none;
+    padding: 0;
+  }
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+/*Large Screen*/
+@media (min-width: 586px) {
+  .hero-mobile {
+    display: none;
+  }
+  .nav-sep {
+    border: none;
+    padding: 0;
+  }
+  .img-size {
+    width: 50%;
+    height: 100%;
+  }
 }

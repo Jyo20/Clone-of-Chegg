@@ -32,14 +32,14 @@
   --bs-gray-900: #212529;
   --bs-primary: rgb(235, 113, 0);
   --bs-success: green;
-  --bs-info: rgb(255, 155, 6);
+  --bs-info: blue;
   --bs-warning: yellow;
   --bs-danger: red;
   --bs-light: white;
   --bs-dark: black;
   --bs-primary-rgb: 235, 113, 0;
   --bs-success-rgb: 0, 128, 0;
-  --bs-info-rgb: 255, 155, 6;
+  --bs-info-rgb: 0, 0, 255;
   --bs-warning-rgb: 255, 255, 0;
   --bs-danger-rgb: 255, 0, 0;
   --bs-light-rgb: 255, 255, 255;
@@ -2835,20 +2835,20 @@ textarea.form-control-lg {
 }
 
 .btn-info {
-  --bs-btn-color: #000;
-  --bs-btn-bg: rgb(255, 155, 6);
-  --bs-btn-border-color: rgb(255, 155, 6);
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #ffaa2b;
-  --bs-btn-hover-border-color: #ffa51f;
-  --bs-btn-focus-shadow-rgb: 217, 132, 5;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #ffaf38;
-  --bs-btn-active-border-color: #ffa51f;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: blue;
+  --bs-btn-border-color: blue;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0000d9;
+  --bs-btn-hover-border-color: #0000cc;
+  --bs-btn-focus-shadow-rgb: 38, 38, 255;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0000cc;
+  --bs-btn-active-border-color: #0000bf;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: rgb(255, 155, 6);
-  --bs-btn-disabled-border-color: rgb(255, 155, 6);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: blue;
+  --bs-btn-disabled-border-color: blue;
 }
 
 .btn-warning {
@@ -2954,19 +2954,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-info {
-  --bs-btn-color: rgb(255, 155, 6);
-  --bs-btn-border-color: rgb(255, 155, 6);
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: rgb(255, 155, 6);
-  --bs-btn-hover-border-color: rgb(255, 155, 6);
-  --bs-btn-focus-shadow-rgb: 255, 155, 6;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: rgb(255, 155, 6);
-  --bs-btn-active-border-color: rgb(255, 155, 6);
+  --bs-btn-color: blue;
+  --bs-btn-border-color: blue;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: blue;
+  --bs-btn-hover-border-color: blue;
+  --bs-btn-focus-shadow-rgb: 0, 0, 255;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: blue;
+  --bs-btn-active-border-color: blue;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: rgb(255, 155, 6);
+  --bs-btn-disabled-color: blue;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: rgb(255, 155, 6);
+  --bs-btn-disabled-border-color: blue;
   --bs-gradient: none;
 }
 
@@ -4597,12 +4597,12 @@ textarea.form-control-lg {
 }
 
 .alert-info {
-  --bs-alert-color: #995d04;
-  --bs-alert-bg: blanchedalmond;
-  --bs-alert-border-color: #ffe1b4;
+  --bs-alert-color: #000099;
+  --bs-alert-bg: #ccccff;
+  --bs-alert-border-color: #b3b3ff;
 }
 .alert-info .alert-link {
-  color: #7a4a03;
+  color: #00007a;
 }
 
 .alert-warning {
@@ -4962,17 +4962,17 @@ textarea.form-control-lg {
 }
 
 .list-group-item-info {
-  color: #995d04;
-  background-color: blanchedalmond;
+  color: #000099;
+  background-color: #ccccff;
 }
 .list-group-item-info.list-group-item-action:hover, .list-group-item-info.list-group-item-action:focus {
-  color: #995d04;
-  background-color: #e6d4b9;
+  color: #000099;
+  background-color: #b8b8e6;
 }
 .list-group-item-info.list-group-item-action.active {
   color: #fff;
-  background-color: #995d04;
-  border-color: #995d04;
+  background-color: #000099;
+  border-color: #000099;
 }
 
 .list-group-item-warning {
@@ -6558,8 +6558,8 @@ textarea.form-control-lg {
 }
 
 .text-bg-info {
-  color: #000 !important;
-  background-color: RGBA(255, 155, 6, var(--bs-bg-opacity, 1)) !important;
+  color: #fff !important;
+  background-color: RGBA(0, 0, 255, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-warning {
@@ -6597,10 +6597,10 @@ textarea.form-control-lg {
 }
 
 .link-info {
-  color: rgb(255, 155, 6) !important;
+  color: blue !important;
 }
 .link-info:hover, .link-info:focus {
-  color: #ffaf38 !important;
+  color: #0000cc !important;
 }
 
 .link-warning {
