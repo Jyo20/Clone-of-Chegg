@@ -182,6 +182,7 @@ body {
 .footer a:hover {
   text-decoration: underline;
 }
+
 .social {
   background-color: rgb(233, 233, 233);
 }
@@ -190,6 +191,29 @@ body {
 }
 .social-icon-img {
   width: 300px;
+}
+.line {
+  width: 95%;
+  margin: 10px 0 10px 30px;
+}
+.setting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.setting div {
+  font-size: 12px;
+  margin-right: 10px;
+}
+.cookies {
+  color: #68b631;
+}
+.cookies:hover {
+  background-color: #68b631;
+  color: white;
+  text-decoration: underline;
+  /* color: #68b631; */
+  border: 1px solid #68b631;
 }
 /*Small Screen*/
 @media (max-width: 586px) {
